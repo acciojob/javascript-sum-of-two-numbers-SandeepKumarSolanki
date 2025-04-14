@@ -8,8 +8,8 @@ function addNumber(input1 , input2){
 	input2 = +input2;
 
 	if(!input1 || input2 || NaN(input1) || NaN(input2)){
-		console.log("Invalid input. Please enter a valid number.");
-		return ;
+		return "Invalid input. Please enter a valid number.");
+		
 	}
 
 	return input1+input2;
